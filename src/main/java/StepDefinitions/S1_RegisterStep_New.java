@@ -58,9 +58,14 @@ public class S1_RegisterStep_New {
         Thread.sleep(2000);
         regPage.clkRegister();
         Thread.sleep(3000);
-        String expected = string;
-        String actual = driver.findElement(By.className("result")).getText();
-        Assert.assertTrue("Registration is Successful",expected.contains(actual));
+//        try {
+            String expected = string;
+            String actual = driver.findElement(By.className("result")).getText();
+            Assert.assertTrue("Error in Registration",expected.contains(actual));
+//        }
+//        catch (NoSuchElementException e){
+//            System.out.println("This Email Already Exists");
+//        }
     }
 
     @Then("error message for invalid data appears {string}")

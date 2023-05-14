@@ -9,9 +9,9 @@ Feature: User registers a new account
     Then the user is registered and successfully and the message "Your registration completed" appears
     Examples:
       | firstname | lastname | email       | password | confPassword |
-      | abc       | abc      | abcdef@abc.com | 123456   | 123456        |
+      | abc       | abc      | asdsd@aaa.com | 123456   | 123456        |
 
-@negative
+  @negative
   Scenario Outline: User registers with invalid data
     Given We are on registerpage
     When user enters "<firstname>" in the first name and "<lastname>" in the last name

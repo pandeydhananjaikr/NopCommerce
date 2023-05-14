@@ -4,6 +4,11 @@ import Listeners.ListenerClass;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
+import io.cucumber.java.Scenario;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+
+import static DriverUtil.DriverManager.driver;
 
 public class Hooks {
     
@@ -15,9 +20,15 @@ public class Hooks {
 
     }
 
-
     @After
-    public void close() {
+    public void close(Scenario scenario) {
+
+        if (scenario.isFailed()){
+            byte[] screenshotBytes = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshotBytes, "image/png", "screenshot" );
+        }
+
+
         Driver.tearDown();
     }
 
