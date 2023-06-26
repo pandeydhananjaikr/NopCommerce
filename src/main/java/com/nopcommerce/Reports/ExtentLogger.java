@@ -1,4 +1,4 @@
-package Reports;
+package com.nopcommerce.Reports;
 
 public class ExtentLogger {
 

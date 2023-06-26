@@ -1,4 +1,4 @@
-package DriverUtil;
+package com.nopcommerce.DriverUtil;
 
 import org.openqa.selenium.WebDriver;
 

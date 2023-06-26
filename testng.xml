@@ -3,12 +3,12 @@
 <suite name="All Test Suite">
 
     <listeners>
-        <listener class-name="Listeners.ListenerClass"></listener>
+        <listener class-name="com.nopcommerce.Listeners.ListenerClass"></listener>
     </listeners>
 
     <test verbose="2" preserve-order="true" name="C:/Users/dhana/IdeaProjects/NopCommerce">
         <classes>
-            <class name="TestRunners.RegTestRunner"></class>
+            <class name="com.nopcommerce.TestRunners.RegTestRunner"></class>
         </classes>
 
     </test>

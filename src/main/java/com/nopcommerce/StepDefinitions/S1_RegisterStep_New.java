@@ -1,7 +1,7 @@
-package StepDefinitions;
-import DriverUtil.DriverManager;
-import Pages.HomePage;
-import Pages.Registation;
+package com.nopcommerce.StepDefinitions;
+import com.nopcommerce.DriverUtil.DriverManager;
+import com.nopcommerce.Pages.HomePage;
+import com.nopcommerce.Pages.Registation;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

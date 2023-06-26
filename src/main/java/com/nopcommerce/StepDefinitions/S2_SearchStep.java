@@ -1,8 +1,8 @@
-package StepDefinitions;
+package com.nopcommerce.StepDefinitions;
 
-import DriverUtil.DriverManager;
-import Pages.HomePage;
-import Pages.SearchPage;
+import com.nopcommerce.DriverUtil.DriverManager;
+import com.nopcommerce.Pages.HomePage;
+import com.nopcommerce.Pages.SearchPage;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.WebDriver;
 

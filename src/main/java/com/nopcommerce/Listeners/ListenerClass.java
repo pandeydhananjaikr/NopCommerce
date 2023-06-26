@@ -1,6 +1,6 @@
-package Listeners;
-import Reports.ExtentLogger;
-import Reports.ExtentReport;
+package com.nopcommerce.Listeners;
+import com.nopcommerce.Reports.ExtentLogger;
+import com.nopcommerce.Reports.ExtentReport;
 import org.testng.*;
 import java.io.IOException;
 

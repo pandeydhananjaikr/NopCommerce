@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a98b808e-8889-48e3-9379-b921c58e2c4b" name="Changes" comment="login feature with a positive scenario updated">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NopCommerce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DriverUtil/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/DriverUtil/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DriverUtil/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/DriverUtil/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Listeners/ListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/Listeners/ListenerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/Pages/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/Pages/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Registation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/Pages/Registation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/Pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reports/ExtentLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/Reports/ExtentLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reports/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/Reports/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reports/ExtentReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/Reports/ExtentReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/StepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinitions/S1_RegisterStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/StepDefinitions/S1_RegisterStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinitions/S1_RegisterStep_New.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/StepDefinitions/S1_RegisterStep_New.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinitions/S2_LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/StepDefinitions/S2_LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinitions/S2_SearchStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/StepDefinitions/S2_SearchStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestRunners/RegTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/TestRunners/RegTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +68,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dhana/IdeaProjects/NopCommerce_2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dhana/IdeaProjects/NopCommerce&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -71,7 +89,7 @@
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/dhana/IdeaProjects/NopCommerce/testng.xml">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User registers with valid data (1)">
     <configuration name="Scenario: User registers with valid data (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/F1_Register_New.feature" />
@@ -156,8 +174,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/dhana/IdeaProjects/NopCommerce/testng.xml" />
         <item itemvalue="Cucumber Java.Scenario: User registers with valid data (1)" />
+        <item itemvalue="TestNG.C:/Users/dhana/IdeaProjects/NopCommerce/testng.xml" />
         <item itemvalue="TestNG.RegTestRunner" />
         <item itemvalue="JUnit.RegTestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Validate that the search option is giving right results" />

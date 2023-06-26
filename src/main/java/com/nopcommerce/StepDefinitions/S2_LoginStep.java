@@ -1,12 +1,8 @@
-package StepDefinitions;
+package com.nopcommerce.StepDefinitions;
 
-import DriverUtil.Driver;
-import DriverUtil.DriverManager;
-import Pages.HomePage;
-import Pages.Login;
-import Pages.Registation;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
+import com.nopcommerce.DriverUtil.DriverManager;
+import com.nopcommerce.Pages.HomePage;
+import com.nopcommerce.Pages.Login;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
